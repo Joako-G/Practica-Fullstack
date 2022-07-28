@@ -1,0 +1,22 @@
+h1{
+    border-bottom-style: 2px;
+    border-bottom-style: solid;
+    border-color: #00F;
+}
+
+h2{
+    border: 2px solid #AAA;
+}
+
+.datos{
+    border-top-style: 2px;
+    border-top-style: dotted;
+    border-color: #F00;
+    border-bottom-style: 2px;
+    border-bottom-style: dotted;
+    border-color: #F00;
+}
+
+.contenido{
+    border: 2px dashed #0F0;
+}
