@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Formulario con Fieldset</h1>
+        </header>
+
+        <main>
+
+            <form action="">
+                
+                <fieldset>
+
+                    <legend>Datos del usuario</legend>
+                    
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="ingrese nombre">
+                    
+                    
+                    <label for="si">
+                    <p>Eres Socio?</p>
+                    <input type="radio" id="si" name="r1" value="Si">
+                         Si, soy socio
+                    </label>
+                    <label for="no">
+                    <input type="radio" id="no" name="r1" value="No"/>
+                        No soy socio
+                    </label>
+                   
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Datos de la reserva</legend>
+                    
+                    <label for="edad">Edad</label>
+                    <select name="edad" id="edad">
+                        <option value="Mayor">Mayor de 18</option>
+                        <option value="Menor">Menor de 18</option>
+                    </select>
+                    
+                    <br>
+                    <p>Selecciona la fecha y hora de la reserva</p>
+                    <input type="date" id="fecha" name="fecha">
+                    <input type="time" name="hora" id="hora">
+
+                    <br><br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10">Comentarios</textarea>
+                    <br><br>
+                </fieldset>
+            </form>
+            <br>
+            
+            <input type="checkbox" name="condiciones" id="condiciones" value="si">
+            <label for="condiciones">Acepto las condiciones</label>
+            <br><br>
+            
+            <input type="submit">
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
