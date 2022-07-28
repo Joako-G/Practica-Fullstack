@@ -1,0 +1,15 @@
+h1{
+    background-color: grey;
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 10px;
+    color: brown;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
