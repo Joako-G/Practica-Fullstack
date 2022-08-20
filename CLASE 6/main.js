@@ -16,3 +16,11 @@ console.log("40 + 2 = " + resultado);
 console.log("40 + 2 = " + sumar(40,4));
 let nombre = ["Joaquin", "Gallardo"];
 console.log(nombre[0].length);
+
+fetch("https://hp-api.herokuapp.com/api/characters")
+.then(response => response.json())
+.then(json => console.log(json))
+
+//https://github.com/public-apis/public-apis
+//https://www.ipify.org/
+//http://ip-api.com/
