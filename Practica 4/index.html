@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
       <link rel="stylesheet" href="style.css">
+      
   </head>
 
   <body>
@@ -66,21 +67,23 @@
       <div class="container">
   
         <div class="contact-form">        
-          <form action="">
+          <form id="formulario"> 
             <div class="form-group">
               <label for="name">Nombre</label>
-              <input class="form-control" type="text">
+              <input id="name" class="form-control" type="text">
             </div>
             <div class="form-group">
-              <label for="name">Email</label>
-              <input class="form-control" type="email">
+              <label for="email">Email</label>
+              <input id="email" class="form-control" type="email">
             </div>
             <div class="form-group">
               <label for="name">Mensaje</label>
-              <textarea class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea class="form-control" id="message" cols="30" rows="10"></textarea>
             </div>
-            <button class="btn btn-light">Enviar</button>
+            <!-- CONTROLAR -->
+            <button id="enviar" class="btn btn-light">Enviar</button>
           </form>
+  
         </div>
   
         <div class="contact-title">
@@ -89,12 +92,8 @@
         
       </div>
     </section>
-  
-
-
     
-
-
+    <script src="./main.js"></script>
 
   </body>
 
